@@ -1,0 +1,36 @@
+#menu1 {
+  background-color: #38b6ff;
+}
+
+#menu1 ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+#menu1 ul li {
+  position: relative;
+}
+
+.lia { 
+  display: block;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#menu1 ul li ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #38b6ff;
+  flex-direction: column;
+}
+
+
+#menu1 ul li:hover ul {
+  display: block;
+}
